@@ -797,11 +797,18 @@ h2 {
 
 #sponsor .col-sm-10 {
   z-index: 10;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 25px;
+  text-transform: uppercase;
 }
 
 #sponsor h2 {
   margin-top: 90px;
   margin-bottom: 40px;
+  color: #ffffff;
 }
 
 #sponsor .item ul {
