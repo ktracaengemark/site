@@ -3091,6 +3091,53 @@ fieldset[disabled] a.btn {
   background-color: #d4d4d4;
   border-color: #8c8c8c;
 }
+.button1 {
+   border: 1px solid #ffffff;
+   background: #2020f5;
+   background: -webkit-gradient(linear, left top, left bottom, from(#6b016b), to(#2020f5));
+   background: -webkit-linear-gradient(top, #6b016b, #2020f5);
+   background: -moz-linear-gradient(top, #6b016b, #2020f5);
+   background: -ms-linear-gradient(top, #6b016b, #2020f5);
+   background: -o-linear-gradient(top, #6b016b, #2020f5);
+   background-image: -ms-linear-gradient(top, #6b016b 0%, #2020f5 100%);
+   padding: 11px 22px;
+   -webkit-border-radius: 22px;
+   -moz-border-radius: 22px;
+   border-radius: 22px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   text-shadow: #000000 0 1px 0;
+   color: #ffffff;
+   font-size: 18px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button1:hover {
+   border: 1px solid #ffffff;
+   text-shadow: #000000 0 1px 0;
+   background: #0800fa;
+   background: -webkit-gradient(linear, left top, left bottom, from(#012366), to(#0800fa));
+   background: -webkit-linear-gradient(top, #012366, #0800fa);
+   background: -moz-linear-gradient(top, #012366, #0800fa);
+   background: -ms-linear-gradient(top, #012366, #0800fa);
+   background: -o-linear-gradient(top, #012366, #0800fa);
+   background-image: -ms-linear-gradient(top, #012366 0%, #0800fa 100%);
+   color: #68ff03;
+   }
+.button1:active {
+   text-shadow: #000000 0 1px 0;
+   border: 1px solid #ffffff;
+   background: #000dff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#002863), to(#0800fa));
+   background: -webkit-linear-gradient(top, #002863, #000dff);
+   background: -moz-linear-gradient(top, #002863, #000dff);
+   background: -ms-linear-gradient(top, #002863, #000dff);
+   background: -o-linear-gradient(top, #002863, #000dff);
+   background-image: -ms-linear-gradient(top, #002863 0%, #000dff 100%);
+   color: #f7ff00;
+}
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {

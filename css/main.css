@@ -162,8 +162,8 @@ h2 {
 
 
 .fixed-menu .navbar-right li a {
-  font-size: 18px;
-  padding: 10px;
+  font-size: 20px;
+  padding: 15px;
   text-shadow:inherit;
 }
 
@@ -280,7 +280,7 @@ h2 {
 
 #explore {
   background-color: #C34C39;
-  background-image: url("../images/event-bg.jpg");
+  background-image: url("../images/1.png");
   background-position: center bottom;
   background-size: contain;
   background-repeat:no-repeat;
@@ -417,7 +417,7 @@ h2 {
 **************************/
 #event {
   background-color: #33888F;
-  background-image: url("../images/fundomenu/performar-bg.jpg");
+  background-image: url("../images/fundomenu/1.png");
   background-position: 50% 0;
   background-size: contain;
   position: relative;
@@ -487,63 +487,63 @@ h2 {
 
 #about {
   background-color: #75B46E;
-  background-image: url("../images/fundomenu/about bg.jpg");
+  background-image: url("../images/fundomenu/1.png");
   position: relative;  
   width: 100%;
   display: flex;
 }
 #about3 {
   background-color: #75B46E;
-  background-image: url("../images/fundomenu/about-bg.jpg");
+  background-image: url("../images/fundomenu/1.png");
   position: relative;  
   width: 100%;
   display: flex;
 }
 #atendimento {
   background-color: #75B46E;
-  background-image: url("../images/fundomenu/about-bg.jpg");
+  background-image: url("../images/fundomenu/1.png");
   position: relative;  
   width: 100%;
   display: flex;
 }
 #about4 {
   background-color: #75B46E;
-  background-image: url("../images/fundomenu/about4-bg.jpg");  
+  background-image: url("../images/fundomenu/2.png");  
   width: 100%;
   position: relative;
   display: flex;
 }
 #mark {
   background-color: #75B46E;
-  background-image: url("../images/fundomenu/about4-bg.jpg");  
+  background-image: url("../images/fundomenu/2.png");  
   width: 100%;
   position: relative;
   display: flex;
 }
 #about5 {
   background-color: #75B46E;
-  background-image: url("../images/fundomenu/about5-bg.jpg");
+  background-image: url("../images/fundomenu/2.png");
   position: relative;  
   width: 100%;
   display: flex;
 }
 #mobile {
   background-color: #75B46E;
-  background-image: url("../images/fundomenu/about5-bg.jpg");
+  background-image: url("../images/fundomenu/1.png");
   position: relative;  
   width: 100%;
   display: flex;
 }
 #org{
   background-color: #75B46E;
-  background-image: url("../images/fundomenu/about5-bg.jpg");
+  background-image: url("../images/fundomenu/2.png");
   position: relative;  
   width: 100%;
   display: flex;
 }
 #about6 {
   background-color: #75B46E;
-  background-image: url("../images/fundomenu/about-bg1.jpg");
+  background-image: url("../images/fundomenu/1.png");
   position: relative;  
   width: 100%;
   display: flex;
@@ -573,7 +573,7 @@ h2 {
 
 .about-content {
   width: 100%;
-  background-image: url("../images/fundomenu/about bg.jpg");
+  background-image: url("../images/fundomenu/1.png");
   background-position: left bottom;
   background-repeat: repeat;
   background-size: contain;
@@ -581,7 +581,7 @@ h2 {
 }
 .about4-content {
   width: 100%;
-  background-image: url("../images/fundomenu/about4-bg.jpg");
+  background-image: url("../images/fundomenu/2.png");
   background-position: left bottom;
   background-repeat: repeat;
   background-size: contain;
@@ -589,7 +589,7 @@ h2 {
 }
 .about6-content {
   width: 100%;
-  background-image: url("../images/fundomenu/about-bg1.jpg");
+  background-image: url("../images/fundomenu/1.png");
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -597,7 +597,7 @@ h2 {
 }
 .about5-content {
   width: 100%;
-  background-image: url("../images/fundomenu/about5-bg.jpg");
+  background-image: url("../images/fundomenu/2.png");
   background-position: left bottom;
   background-repeat: repeat;
   background-size: contain;
@@ -605,7 +605,7 @@ h2 {
 }
 .about3-content {
   width: 100%;
-  background-image: url("../images/fundomenu/about-bg.jpg");
+  background-image: url("../images/fundomenu/1.png");
   background-position: left bottom;
   background-repeat: repeat;
   background-size: contain;
@@ -621,7 +621,7 @@ h2 {
 
 
 #about h2 {
-  margin-bottom: 23px;
+  margin-bottom: 20px;
 }
 .about3-content h4 {
   color: #FFFFFF;
@@ -637,7 +637,6 @@ h2 {
   font-weight: 300;
   line-height: 26px;
   margin-top: 25px;
-  text-transform: uppercase;
 }
 .about4-content h4 {
   color: #FFFFFF;
@@ -669,11 +668,10 @@ h2 {
   font-weight: 300;
   line-height: 26px;
   margin-top: 25px;
-  text-transform: uppercase;
 }
 .about4-content h2 {
   color: #FFFFFF;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 300;
   line-height: 26px;
   margin-top: 25px;
@@ -754,6 +752,53 @@ h2 {
 
 #twitter-feed .item a {
   color:#00c3ff;
+}
+.button2 {                                                      /*ADICIONAR BOTOES*/
+   border: 0px solid #ffffff;
+   background: #04047d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#080470), to(#04047d));
+   background: -webkit-linear-gradient(top, #080470, #04047d);
+   background: -moz-linear-gradient(top, #080470, #04047d);
+   background: -ms-linear-gradient(top, #080470, #04047d);
+   background: -o-linear-gradient(top, #080470, #04047d);
+   background-image: -ms-linear-gradient(top, #080470 0%, #04047d 100%);
+   padding: 12px 24px;
+   -webkit-border-radius: 22px;
+   -moz-border-radius: 22px;
+   border-radius: 22px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   text-shadow: #000000 0 1px 0;
+   color: #ffffff;
+   font-size: 18px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button2:hover {
+   border: 0px solid #ffffff;
+   text-shadow: #000000 0 1px 0;
+   background: #070661;
+   background: -webkit-gradient(linear, left top, left bottom, from(#060f75), to(#070661));
+   background: -webkit-linear-gradient(top, #060f75, #070661);
+   background: -moz-linear-gradient(top, #060f75, #070661);
+   background: -ms-linear-gradient(top, #060f75, #070661);
+   background: -o-linear-gradient(top, #060f75, #070661);
+   background-image: -ms-linear-gradient(top, #060f75 0%, #070661 100%);
+   color: #68ff03;
+   }
+.button2:active {
+   text-shadow: #000000 0 1px 0;
+   border: 0px solid #ffffff;
+   background: #020861;
+   background: -webkit-gradient(linear, left top, left bottom, from(#0d0357), to(#070661));
+   background: -webkit-linear-gradient(top, #0d0357, #020861);
+   background: -moz-linear-gradient(top, #0d0357, #020861);
+   background: -ms-linear-gradient(top, #0d0357, #020861);
+   background: -o-linear-gradient(top, #0d0357, #020861);
+   background-image: -ms-linear-gradient(top, #0d0357 0%, #020861 100%);
+   color: #f7ff00;
 }
 
 .twitter-control-left, 
