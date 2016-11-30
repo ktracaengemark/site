@@ -7,9 +7,8 @@
 **************************/
 
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Dosis', sans-serif, 'Questrial','Helvetica Neue',Arial;
   font-size: 17px;
-  color: #fff
 }
 
 
@@ -115,7 +114,7 @@ h2 {
 }
 
 .navbar-brand {
-  height: 80px;
+  height: 30px;                   /*Problema do botão resolve nessa linha*/
   margin-bottom: 40px;
   position: absolute; 
   width: 500px;
@@ -128,7 +127,7 @@ h2 {
 }
 
 .navbar-right {          
-  top: -230px;
+  top: -100px;
   padding: -95px;
   opacity: .9
 }
@@ -182,7 +181,7 @@ h2 {
 }
 
 .fixed-menu .header-top {
-  display: none;
+  display: block;
 }
 
 
@@ -191,12 +190,12 @@ h2 {
 *******Home CSS******
 **************************/
 
-#home {
+#home {                             /* Fundo do site COR*/
   position: static;
   overflow: hidden;
-  background-color: #000000;
+  background-color: #1d1d1d;
 }
-#home1 {
+#home1 {                           /* Fundo do site Fonte*/
   position:fixed;
   right: -300px;
   top: 0px;
@@ -210,20 +209,20 @@ h2 {
 .carousel-inner > .item > img {
     position-relative;
     min-width: 100%;
-    height: 600px; /* Altura da imagem dentro do Carousel */
+    height: 600px;                        /* Altura da imagem dentro do Carousel */
 	weight: 600px;
 }
 #main-slider 
 .carousel-caption {
-  background: #000000;
   bottom: 14%;
   float: center;
   left: 0;
   opacity: 0.8;
-  padding:10px 60px 35px;
+  padding:5px 20px 10px;
   right: inherit;
   color: #fff;
   text-align: left;
+  background: #000000;                 /* Cor da barra flutuante */
 }
 
 
@@ -272,7 +271,6 @@ h2 {
 
 #main-slider 
 .carousel-indicators li.active {
-  background-color:#fff;
   border: 1px solid #fff;
 }
 
