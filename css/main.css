@@ -427,7 +427,7 @@ h2 {
 
 #event h2 {
   color: #FFFFFF;
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 300;
   margin-bottom: 40px;
   margin-top: 70px;
@@ -454,6 +454,7 @@ h2 {
 
 #event-carousel {
   position: relative;
+  height:570px;
 }
 
 .even-control-left, 
@@ -570,6 +571,7 @@ h2 {
   background-repeat: repeat;
   background-size: contain;
   padding: 70px 70px 110px;
+  height:570px;
 }
 .about4-content {
   width: 100%;
@@ -578,6 +580,7 @@ h2 {
   background-repeat: repeat;
   background-size: contain;
   padding: 70px 70px 110px;
+  height:570px;
 }
 .about6-content {
   width: 100%;
@@ -586,6 +589,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: contain;
   padding: 10px 10px 20px;
+  height:570px;
 }
 .about5-content {
   width: 100%;
@@ -594,6 +598,7 @@ h2 {
   background-repeat: repeat;
   background-size: contain;
   padding: 70px 70px 110px;
+  height:570px;
 }
 .about3-content {
   width: 100%;
@@ -602,6 +607,7 @@ h2 {
   background-repeat: repeat;
   background-size: contain;
   padding: 70px 70px 110px;
+  height:570px;
 }
 .about1-content {
   width: 100%;
@@ -609,6 +615,7 @@ h2 {
   background-repeat: repeat;
   background-size: contain;
   padding: 70px 70px 110px;
+  height:570px;
 }
 
 
@@ -659,7 +666,7 @@ h2 {
 }
 .about4-content h2 {
   color: #FFFFFF;
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 300;
   line-height: 26px;
   margin-top: 25px;
