@@ -36,12 +36,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Garamond', 'sans-serif';
   font-weight: 300;
   color: #FFFFFF;
-  text-transform: uppercase;
 }
 h7{
   font-family: 'Garamond', 'sans-serif';
   font-weight: 300;
-  text-transform: uppercase;
   color: #000000;
 }
 
@@ -137,7 +135,6 @@ h2 {
   padding: 35px 21px;
   font-size: 22px;
   color: #fff;
-  text-transform: uppercase;
   font-family: 'Yanone Kaffeesatz', 'sans-serif';
   font-weight: 300;
 }
@@ -297,7 +294,6 @@ h2 {
 
 #explore h2 {
   font-size: 42px;
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -313,7 +309,6 @@ h2 {
   display:inline-block;
   margin-right: 40px;
   text-align: center;
-  text-transform: uppercase;
   font-size: 18px;
   position: relative;
 }
@@ -400,7 +395,6 @@ h2 {
   color: #FFFFFF;
   display: block;
   font-size: 24px;
-  text-transform: uppercase;
 }
 
 .cart a i {
@@ -437,7 +431,6 @@ h2 {
   font-weight: 300;
   margin-bottom: 40px;
   margin-top: 70px;
-  text-transform: uppercase;
 }
 
 .single-event {
@@ -450,7 +443,6 @@ h2 {
   font-weight: 300;
   line-height: 26px;
   margin-top: 25px;
-  text-transform: uppercase;
 }
 
 
@@ -629,7 +621,6 @@ h2 {
   font-weight: 300;
   line-height: 26px;
   margin-top: 25px;
-  text-transform: uppercase;
 }
 .about-content h4 {
   color: #FFFFFF;
@@ -640,19 +631,17 @@ h2 {
 }
 .about4-content h4 {
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 26px;
   margin-top: 25px;
-  text-transform: uppercase;
 }
 .about5-content h4 {
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 26px;
-  margin-top: 10px;
-  text-transform: uppercase;
+  margin-top: 25px;
 }
 .about3-content h2 {
   color: #FFFFFF;
@@ -660,7 +649,6 @@ h2 {
   font-weight: 300;
   line-height: 26px;
   margin-top: 25px;
-  text-transform: uppercase;
 }
 .about-content h2 {
   color: #FFFFFF;
@@ -675,7 +663,6 @@ h2 {
   font-weight: 300;
   line-height: 26px;
   margin-top: 25px;
-  text-transform: uppercase;
 }
 .about5-content h2 {
   color: #FFFFFF;
@@ -683,7 +670,6 @@ h2 {
   font-weight: 300;
   line-height: 26px;
   margin-top: 10px;
-  text-transform: uppercase;
 }
 .about-content p {
   font-size: 17px;
@@ -845,7 +831,6 @@ h2 {
   font-weight: 300;
   line-height: 26px;
   margin-top: 25px;
-  text-transform: uppercase;
 }
 
 #sponsor h2 {
