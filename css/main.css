@@ -133,7 +133,7 @@ h2 {
 .navbar-right li a {
   top: -45px;
   padding: 35px 21px;
-  font-size: 22px;
+  font-size: 22px;                                       /* Tamanho da fonte do menu */
   color: #fff;
   font-family: 'Yanone Kaffeesatz', 'sans-serif';
   font-weight: 300;
