@@ -231,7 +231,11 @@ h2 {
 
 #main-slider 
 .carousel-caption h4 {
-  font-size: 24px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 25px;
 }
 
 #main-slider 
