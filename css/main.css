@@ -91,7 +91,7 @@ h2 {
   color: #fff;
   padding-left:20px;
   position: relative;
-  left: 70px;
+  left: 110px;
   top: -100px;  
 }
 
@@ -199,7 +199,17 @@ h2 {
   overflow: hidden;
   background-color: #000000;
 }
+#myCarousel{
+    height: 450px;                   
+	weight: 550px;
 
+}
+#myCarousel img {
+  width: 100%
+  position-relative;
+  height: 450px;
+  weight: 550px;
+}
 #main-slider img {
   width: 100%
 }
@@ -414,12 +424,11 @@ h2 {
 *******Event CSS******
 **************************/
 #event {
-  background-color: #33888F;
-  background-image: url("../images/fundomenu/1.png");
-  background-position: 50% 0;
-  background-size: contain;
-  position: relative;
-  background-repeat: repeat;
+  background-color: #75B46E;
+  background-image: url("../images/fundomenu/2.png");
+  position: relative;  
+  width: 100%;
+  display: flex;
 }
 
 .guitar {
@@ -466,15 +475,15 @@ h2 {
   position: absolute;
   font-size: 24px;
   color: #fff;
-  top: 0;
+  left: 600px;
 }
 
 .even-control-left {
-  right: 3%
+  left: 41%;
 } 
 
 .even-control-right {
-  right: 0;
+  right: 5%;
 }
 
 
@@ -497,6 +506,13 @@ h2 {
   display: flex;
 }
 #atendimento {
+  background-color: #75B46E;
+  background-image: url("../images/fundomenu/1.png");
+  position: relative;  
+  width: 100%;
+  display: flex;
+}
+#sistemas{
   background-color: #75B46E;
   background-image: url("../images/fundomenu/1.png");
   position: relative;  
@@ -874,7 +890,7 @@ h2 {
 .sponsor-control-right {
   color: #FFFFFF;
   font-size: 24px;
-  position: absolute;
+  position: left;
   top: 20%;
 }
 
