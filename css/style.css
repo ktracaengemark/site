@@ -85,7 +85,160 @@ i.quot {
 	-o-border-radius: 100px;
 	margin: 0 auto;
 }
+#navigation .navbar {
+  background:rgba(255, 255, 255, 0.952941);
+  border-radius: 0;
+  border-bottom: 0;
+  box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 3px;
+  padding-bottom: 8px;
+}
 
+#navigation .navbar-toggle{
+  margin-top: 20px;
+  background-color: #333;
+}
+
+#navigation .navbar-brand h1{
+  padding: 0;
+  margin: 0;
+}
+
+#navigation .navbar-nav.navbar-right li {
+	padding: 0 1px;
+}
+
+#navigation .navbar-nav.navbar-right {
+	margin-top:28px
+}
+
+#navigation .navbar-nav.navbar-right li a {
+	color: #43484E;
+	font-family: 'Roboto',sans-serif;
+	font-size: 14px;
+	padding: 0;
+	text-transform: uppercase;
+	-webkit-transition: all .9s ease 0s;
+	-moz-transition: all .9s ease 0s;
+	-o-transition: all .9s ease 0s;
+	transition: all .9s ease 0s;
+	padding: 6px 15px;
+}
+
+#navigation .navbar-inverse .navbar-nav  .active  a,  
+#navigation .navbar-inverse .navbar-nav  .active  a:focus, 
+#navigation .navbar-nav.navbar-right li a:hover {
+	color: #fff;
+	background-color: #fc7700;
+}
+#team-carousel {
+	position:relative
+}
+
+#our-team {
+	background-color:#f6f6f6;
+	color:#43484E;
+}
+
+#our-team h2 {
+	color:#43484E;
+	margin-bottom:35px;
+}
+
+#our-team .team-members {
+	padding:0;
+	margin-top:55px;
+	display:block;
+	overflow:hidden
+}
+
+.single-member {
+	height:430px;
+	background-color:#43484E;
+	border: 1px solid #43484E;
+	color: #f6f6f6;
+	padding: 25px;
+	text-align:center;
+	overflow:hidden;
+}
+
+.single-member img {
+	width:100%
+}
+
+.single-member h4, 
+.single-member h5 {
+	text-align:center
+}
+
+#our-team .socials i {
+	background-color:#fff;
+	border-radius: 50%;
+	color: #43484E;
+	display: inline-block;
+	font-size:16px;
+	height: 30px;
+	line-height:28px;
+	margin-right: 5px;
+	text-align: center;
+	width: 30px;
+	border-width:1px;
+	border-color:#43484E;
+	border-style: solid;
+	opacity:.5;
+	 -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;  
+}
+
+#our-team .socials a i:hover {
+	opacity:1;
+	color:#fff;
+	border:0
+}
+
+#our-team .socials a .fa-facebook:hover {
+	background: #3B5997;	
+}
+
+#our-team .socials a .fa-twitter:hover {
+  background:#29C5F6
+}
+
+#our-team .socials a .fa-pinterest:hover {
+  background:#C61118
+}
+
+#our-team .socials a .fa-dribbble:hover {
+  background:#FF5C93
+}
+
+#our-team .socials a .fa-linkedin:hover {
+  background:#006DC0
+}
+
+#our-team .socials a .fa-google-plus:hover {
+  background:#D13D2F
+}
+
+#our-team .socials a .fa-flickr:hover {
+  background:#7A797B
+}
+
+.member-left, .member-right {
+	position:absolute;
+	top:-43px;
+	color:#43484E
+}
+
+
+.member-left {
+	left:49%;
+}
+
+.member-right {
+	left:51%
+}
 #fh5co-header {
   position: absolute;
   z-index: 99;
@@ -105,6 +258,7 @@ i.quot {
   }
   #fh5co-header .navbar-brand {
     color: #6173f4 !important;
+	margin-top: -5px;
   }
   #fh5co-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
@@ -183,6 +337,12 @@ i.quot {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+#navbar-brand .img {
+ margin-top: 10px;
+ margin-right: auto;
+ margin-bottom: 0;
+ margin-left: 20px;
 }
 #fh5co-header .navbar-brand {
   float: left;
@@ -1298,7 +1458,6 @@ div.transbox p {
     font-size: 36px;
     line-height: 34px;
 	color: white;
-  }
 }
 
 .js .to-animate {

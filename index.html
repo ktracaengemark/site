@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -13,12 +12,12 @@
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
 
-  <!-- 
+  <!--
 	//////////////////////////////////////////////////////
 
-	FREE HTML5 TEMPLATE 
+	FREE HTML5 TEMPLATE
 	DESIGNED & DEVELOPED by FREEHTML5.CO
-		
+
 	Website: 		http://freehtml5.co/
 	Email: 			info@freehtml5.co
 	Twitter: 		http://twitter.com/fh5co
@@ -42,7 +41,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -55,10 +54,10 @@
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 
-	<!-- 
-	Default Theme Style 
+	<!--
+	Default Theme Style
 	You can change the style.css (default color purple) to one of these styles
-	
+
 	1. pink.css
 	2. blue.css
 	3. turquoise.css
@@ -79,26 +78,27 @@
 
 	</head>
 	<body>
-	<header role="banner" id="fh5co-header">
-			<div class="container">
-				<!-- <div class="row"> -->
-			    <nav class="navbar navbar-default">
-		        <div class="navbar-header">
-		        	<!-- Mobile Toggle Menu Button -->
-					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		          	<a class="navbar-brand">
-		            <img class="img-responsive" src="images/logo2.png" alt="logo">
-		            </a>  
-		        </div>
-		        <div id="navbar" class="navbar-collapse collapse">
-		          <ul class="nav navbar-nav navbar-right">
-		            <li class="active"><a href="#" data-nav-section="home"><span><b>Início</b></span></a></li>
-		            <li><a href="#" data-nav-section="about"><span><b>Sobre Nós</b></span></a></li>
-						  <li class="dropdown">
+	<header id="navigation"> 
+		<div class="navbar navbar-inverse navbar-fixed-top" role="banner"> 
+			<div class="container"> 
+				<div class="navbar-header"> 
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+						<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> 
+					</button> 
+					<a class="navbar-brand">
+		            <img class="img-responsive" src="images/logo1.png" alt="logo">
+		            </a> 
+				</div> 
+				<div class="collapse navbar-collapse"> 
+					<ul class="nav navbar-nav navbar-right"> 
+						<li class="scroll active"><a href="#navigation">Início</a></li> 
+						<li class="scroll"><a href="#about-us">Quem Somos</a></li>
+                        <li class="scroll"><a href="#oquefazemos">O Que Fazemos</a></li>						
+						<!--<li class="dropdown">
 							<a class="dropdown-toggle"
 							   data-toggle="dropdown"
 							   href="#"><b>
-								Nossos Pilares
+								O que Fazemos
 								</b><b class="caret"></b>
 							  </a>
 							<ul class="dropdown-menu">
@@ -106,21 +106,21 @@
 								<li><a tabindex="-1" href="#" data-nav-section="Atendimento"><b>Atendimento</b></a></li>
 								<li><a tabindex="-1" href="#" data-nav-section="Marketing"><b>Marketing</b></a></li>
 							</ul>
-						  </li>
-		            <li><a href="#" data-nav-section="sistemas"><span><b>Nossos Sistemas</b></span></a></li>
-		            <li><a href="#" data-nav-section="Faleconosco"><span><b>Fale Conosco</b></span></a></li>
-				<!--<li><a href="#" data-nav-section="help"><span><b>Parceiros</b></span></a></li>-->
-		          </ul>
-		        </div>
-			    </nav>
-			  <!-- </div> -->
-		  </div>
-	</header>
+						 </li>--> 
+						<li class="scroll"><a href="#our-team">Colaboradores</a></li> 
+						<!--<li class="scroll"><a href="#portfolio">Imagens</a></li>--> 
+						<li class="scroll"><a href="#clientes">Nossos Clientes</a></li> 
+						<li class="scroll"><a href="#contact">Fale Conosco</a></li> 
+					</ul> 
+				</div> 
+			</div> 
+		</div><!--/navbar--> 
+	</header> <!--/#navigation--> 
 
 	<div id="slider" data-section="home">
 		<div class="owl-carousel owl-carousel-fullwidth">
 			<!-- You may change the background color here. -->
-		    <div class="item" style="background-image:url(images/slider/mkt.jpg)">
+		    <div class="item" style="background-image:url(images/slider/1.jpg)">
 		    	<div class="overlay"></div>
 		    	<div class="container" style="position: relative;">
 		    		<div class="row">
@@ -143,7 +143,7 @@
 
 		</div>
 			<!-- You may change the background color here.  -->
-		    <div class="item" style="background-image:url(images/1.jpg)">
+		    <div class="item" style="background-image:url(images/slider/2.jpg)">
 		    	<div class="container" style="position: relative;">
 		    		<div class="col-md-7 col-md-offset-3 text-center">
 		    				<div class="fh5co-owl-text-wrap">
@@ -162,7 +162,7 @@
 		        </div>
 		    </div>
 
-		    <div class="item" style="background-image:url(images/slider/sistemas.jpg)">
+		    <div class="item" style="background-image:url(images/slider/3.jpg)">
 		    	<div class="overlay"></div>
 		    	<div class="container" style="position: relative;">
 		    		<div class="row">
@@ -185,15 +185,15 @@
 
 		</div>
 	</div>
-	
+
 	<div id="fh5co-about-us" data-section="about">
 		<div class="container">
 			<div class="row row-bottom-padded-lg" id="about-us">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">Sobre Nós</h2>
+					<h2 class="to-animate">Quem Somos</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 to-animate">
-							<h3>&#10004 A <strong> Ktraca Engenharia e Marketing </strong> é uma empresa focada no desenvolvimento de soluções em comunicação. 
+							<h3>&#10004 A <strong> Ktraca Engenharia e Marketing </strong> é uma empresa focada no desenvolvimento de soluções em comunicação.
 					Através de sistemas e serviços inovadores, buscamos garantir a total satisfação dos profissionais na gestão de suas atividades.</h3>
 						</div>
 					</div>
@@ -206,32 +206,32 @@
 					<div id="SaibaMais1" class="collapse">
 					<p><h4> &#10004 Nossa atuação é direcionada às empresas que trabalham com produtos e
                             serviços recorrentes, as quais possuem clientes que consomem seus produtos
-							e serviços frequentemente.</h4>					
+							e serviços frequentemente.</h4>
 					<h4>&#10004 Atuamos junto a clínicas, consultórios, salões de beleza, academias, entre
-							diversos outros tipos de negócios.</h4>					
+							diversos outros tipos de negócios.</h4>
 					<h4>&#10004 Nossa Missão é ajudar a tornar as empresas autossustentáveis, gerando a
 							tranquilidade necessária ao profissional para exercer a sua atividade fim e, assim,
 						    melhorar o seu ambiente de trabalho, otimizar o seu tempo, promover o crescimento
 						    de sua empresa e proporcionar mais qualidade de vida.</h4>
 				</div>
 				<p><a href="#Faleconosco" data-nav-section="Faleconosco" class="btn btn-primary">Fale Conosco</a></p>
-			</div>		
+			</div>
 		</div>
 	</div>
-	<div id="fh5co-our-services" data-section="Organização">
+	<!--<div id="fh5co-our-services" data-section="Organização">
 		<div class="container">
 			<div class="row row-bottom-padded-sm">
 				<div class="col-md-12 section-heading text-center">
 					<h2 class="to-animate">Organização</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 to-animate">
-							<h3>&#10004 A <b> Ktraca Engenharia e Marketing </b> presta um serviço de consultoria às empresas, através de profissionais altamente qualificados, 
+							<h3>&#10004 A <b> Ktraca Engenharia e Marketing </b> presta um serviço de consultoria às empresas, através de profissionais altamente qualificados,
 					oferecendo assessoria para auxiliar e tirar dúvidas.</h3>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row">
+	  <div class="row">
 				<div class="col-md-8 to-animate">
 				<img src="images/Organização.jpg" class="img-responsive img-rounded" alt="Free HTML5 Template">
 				</div>
@@ -241,22 +241,22 @@
 					<h4>&#10004 Nós sabemos o quanto é cansativo para os profissionais exercerem várias funções na hora de administrar o seu negócio, por isso queremos ajudá-los com sua gestão e organização.</h4>
 					<h4>&#10004 Acreditamos que organização seja um dos pontos mais importantes dentro de uma empresa.</h4>
                     <h4>&#10004 Temos como prioridade fazer com que cada função seja exercida da maneira certa para que tudo funcione sem que haja danos ou prejuízos aos negócios.</h4>
-					<h4>&#10004 Queremos que os profissionais exerçam sua função sem que precisem se preocupar em atender telefones ou marcar horários em agendas, garantindo um trabalho muito mais eficiente e atencioso aos seus clientes.</h4>					
+					<h4>&#10004 Queremos que os profissionais exerçam sua função sem que precisem se preocupar em atender telefones ou marcar horários em agendas, garantindo um trabalho muito mais eficiente e atencioso aos seus clientes.</h4>
                     <h4>&#10004 Daremos todo auxílio para novas soluções administrativas e de gestão à sua empresa, a fim de obter sempre os melhores resultados.</h4>
 		   </div>
 				<p><a href="#Faleconosco" data-nav-section="Faleconosco" class="btn btn-primary">Fale Conosco</a></p>
-				</div>				
+				</div>
 		</div>
 	</div>
-	
-	<div id="fh5co-features" data-section="Atendimento">
+
+	    <div id="fh5co-features" data-section="Atendimento">
 		<div class="container">
 			<div class="row row-bottom-padded-sm">
 				<div class="col-md-12 section-heading text-center">
 					<h2 class="to-animate">Atendimento</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 to-animate">
-							<h3>&#10004 Para negócios que não possuem secretária, a <b> Ktraca Engenharia e Marketing </b> oferece secretárias compartilhadas, 
+							<h3>&#10004 Para negócios que não possuem secretária, a <b> Ktraca Engenharia e Marketing </b> oferece secretárias compartilhadas,
 					onde uma de suas funções é garantir o atendimento das ligações, evitando perda de negócios e reduzindo custo.</h3>
 						</div>
 					</div>
@@ -276,19 +276,19 @@
 					<h4>&#10004 O serviço de secretárias compartilhadas otimiza seu tempo no local de trabalho e faz com que seu serviço não seja interrompido em momento algum pelo telefone.</h4>
 				</div>
 				<p><a href="#Faleconosco" data-nav-section="Faleconosco" class="btn btn-primary">Fale Conosco</a></p>
-				</div>				
+				</div>
 		</div>
 	</div>
-	</div>
-     
-	<div id="fh5co-features" data-section="Marketing">
+	</div>-->
+
+	<div id="fh5co-features" data-section="oquefazemos">
 		<div class="container">
-			<div class="row row-bottom-padded-sm">
+			<div class="row row-bottom-padded-sm" id="oquefazemos">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">Marketing</h2>
+					<h2 class="to-animate">O Que Fazemos</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 to-animate">
-							<h3>&#10004 A <b> Ktraca Engenharia e Marketing</b> disponibiliza um serviço de marketing de relacionamento completo, priorizando aumentar a satisfação e a confiança de seus clientes em sua marca. Manter um contato mais próximo com o seu Cliente potencializa a fidelização.</h3>
+							<h3>&#10004 A <b> Ktraca Engenharia e Marketing</b> disponibiliza não só um serviço de marketing de relacionamento completo, priorizando aumentar a satisfação e a confiança de seus clientes em sua marca. Manter um contato mais próximo com o seu Cliente potencializa a fidelização.</h3>
 						</div>
 					</div>
 				</div>
@@ -306,10 +306,11 @@
 					<h4>&#10004 Seja em datas comemorativas ou em qualquer outra situação, sua empresa estará sempre em contato com seu cliente, através de e-mails, SMS, cartas, redes sociais e outros meios, mesmo quando ele não estiver usufruindo de seus serviços.</h4>
 				</div>
 				<p><a href="#Faleconosco" data-nav-section="Faleconosco" class="btn btn-primary">Fale Conosco</a></p>
-				</div>				
+				</div>
 		</div>
 	</div>
 	</div>
+	
 	<div id="fh5co-features" data-section="sistemas">
 	<div class="row">
 				<div class="col-md-12 section-heading text-center to-animate">
@@ -348,8 +349,60 @@
 							</div>
 						</div>
 					</div>
-				</div>	
+				</div>
 			</div>
+			
+			
+			<section id="our-team">
+			<div class="container">
+					<div class="col-md-12 section-heading text-center to-animate">
+					<h2>Nosso Time</h2>
+				    </div>
+				<div id="team-carousel" class="carousel slide" data-interval="false">
+					<a class="member-left" href="#team-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+					<a class="member-right" href="#team-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+					<div class="carousel-inner team-members">
+						<div class="row item active">
+							<div class="col-sm-6 col-md-3">
+								<div class="single-member">
+									<img src="images/our-team/1.jpg" alt="team member" />
+									<h4>Márcio Dias</h4>
+									<h5>Diretor de Criação</h5>
+									<p>Engenheiro de Telecomunicações, publicitário e Administrador.</p>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="single-member">
+									<img src="images/our-team/4.jpg" alt="team member" />
+									<h4>Rodrigo Campos</h4>
+									<h5>Diretor de Desenvolvimento</h5>
+									<p>Engenheiro de Telecomunicações, Designer de Sistemas e Mestrando em T.I.</p>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="single-member">
+									<img src="images/our-team/renata.jpg" alt="team member" />
+									<h4>Renata Lethier</h4>
+									<h5>Criação e Designer Gráfico</h5>
+									<p>Publicitária e Diretora de Marketing.</p>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="single-member">
+									<img src="images/our-team/3.jpg" alt="team member" />
+									<h4>João Victor Abreu</h4>
+									<h5>Webdesigner e Suporte</h5>
+									<p>Profissional de TI e Analista de Sistemas.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section><!--/#Our-Team-->
+		<br>
+		<br>
+		<br>
 			
 		<!--<div class="row content_middle_bottom">
 			  <div class="col-md-4">
@@ -472,8 +525,9 @@
 	</div>
    </div>
    </div>-->
-	
-	<div id="fh5co-testimonials" data-section="help">		
+   
+	<!--<div id="fh5co-testimonials" data-section="help">
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
@@ -488,9 +542,9 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 
-	<div id="fh5co-pricing" data-section="Faleconosco">
+	<div id="fh5co-testimonials" data-section="contact">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-3 col-sm-offset-4">
@@ -527,90 +581,16 @@
 					            </div>
 					            <div class="form-group">
 					                <textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Digite sua Mensagem"></textarea>
-					            </div>                        
+					            </div>
 					            <div class="form-group">
 					                <button type="submit" class="btn btn-primary pull-right">Enviar</button>
 					            </div>
-					        </form>	       
+					        </form>
 					    </div>
 					</div>
 				</div>
 			</div>
 	</div>
-
-	<!--<div id="fh5co-press" data-section="press">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 section-heading text-center">
-					<h2 class="single-animate animate-press-1">Press Releases</h2>
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 subtext single-animate animate-press-2">
-							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<!-- Press Item
-					<div class="fh5co-press-item to-animate">
-						<div class="fh5co-press-img" style="background-image: url(images/img_7.jpg)">
-						</div>
-						<div class="fh5co-press-text">
-							<h3 class="h2 fh5co-press-title">Simplicity <span class="fh5co-border"></span></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius quos similique suscipit dolorem cumque vitae qui molestias illo accusantium...</p>
-							<p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>
-						</div>
-					</div>
-					<!-- Press Item 
-				</div>
-
-				<div class="col-md-6">
-					<!-- Press Item 
-					<div class="fh5co-press-item to-animate">
-						<div class="fh5co-press-img" style="background-image: url(images/img_8.jpg)">
-						</div>
-						<div class="fh5co-press-text">
-							<h3 class="h2 fh5co-press-title">Versatile <span class="fh5co-border"></span></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius quos similique suscipit dolorem cumque vitae qui molestias illo accusantium...</p>
-							<p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>
-						</div>
-					</div>
-					<!-- Press Item --
-				</div>
-				
-				<div class="col-md-6">
-					<!-- Press Item 
-					<div class="fh5co-press-item to-animate">
-						<div class="fh5co-press-img" style="background-image: url(images/img_9.jpg);">
-						</div>
-						<div class="fh5co-press-text">
-							<h3 class="h2 fh5co-press-title">Aesthetic <span class="fh5co-border"></span></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius quos similique suscipit dolorem cumque vitae qui molestias illo accusantium...</p>
-							<p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>
-						</div>
-					</div>
-					<!-- Press Item 
-				</div>
-
-				<div class="col-md-6">
-					<!-- Press Item 
-					<div class="fh5co-press-item to-animate">
-						<div class="fh5co-press-img" style="background-image: url(images/img_10.jpg);">
-						</div>
-						<div class="fh5co-press-text">
-							<h3 class="h2 fh5co-press-title">Creative <span class="fh5co-border"></span></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius quos similique suscipit dolorem cumque vitae qui molestias illo accusantium...</p>
-							<p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>
-						</div>
-					</div>
-					<!-- Press Item 
-				</div>
-
-			</div>
-		</div>
-	</div>-->
-	
 
 	<footer id="footer" role="contentinfo">
 		<div class="container">
@@ -634,7 +614,7 @@
 			</div>
 		</div>
 	</footer>
-	
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
