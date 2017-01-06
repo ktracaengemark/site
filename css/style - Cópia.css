@@ -1041,7 +1041,7 @@ ul.price_list p{
 	margin:0;
 }
 ul.price1{
-	background:#6173f4;
+	background:#3100F0;
 	text-align:center;
 	padding:5%;
 }
@@ -1348,25 +1348,19 @@ ul.price_question{
 	top:1px;
 }
 
-div.background {
-  background: url(klematis.jpg) repeat;
+.owl-carousel .owl-controls .owl-nav {
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
-
-div.transbox p{
-  font-size:40px;
-  margin: 10px;
-  background-color: #000000;
-  border: 1px solid black;
-  opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
+.owl-carousel:focus .owl-controls .owl-nav, .owl-carousel:hover .owl-controls .owl-nav, .owl-carousel:active .owl-controls .owl-nav {
+  opacity: 1;
 }
-
-div.transbox p {
-  margin: 5%;
-  font-weight: bold;
-  color: #ffffff;
+.owl-carousel .btn-primary:hover, .owl-carousel .btn-primary:focus, .owl-carousel .btn-primary:active {
+  background: transparent !important;
+  border: 2px solid #fff !important;
 }
-
 
 .owl-carousel .owl-controls,
 .owl-carousel-posts .owl-controls {
@@ -1518,7 +1512,7 @@ div.transbox p {
   z-index: 8;
 }
 .owl-carousel-fullwidth .item img {
-  max-width: 80%;
+  max-width: 100%;
 }
 .owl-carousel-fullwidth .item .iphone-image {
   position: relative;
@@ -1562,155 +1556,6 @@ div.transbox p {
   margin: 0;
   padding: 0;
 }
-
-/*======================
-====Main Slider CSS=====
-=======================*/
-.home-pattern {
-	height:100%;
-	position:absolute;
-	width:100%;
-	z-index:1;
-	left:0;
-	bottom:0;
-	background-image:url(../images/home-pattern.png);
-	background-repeat:repeat;
-	opacity:0.2;
-}
-
-#home{
-  padding: 0;
-  overflow: hidden;
-  position:relative
-}
-
-#main-carousel .carousel-inner .item {
-	background-size:cover;
-	height: 100%;
-	background-position: 50% 50%;
-	background-repeat:no-repeat;
-}
-
-#main-carousel .carousel-indicators { 
-	bottom:15px
-}
-
-#main-carousel .carousel-indicators li{
-	background: rgba(0, 0, 0, 0);
-	border: 1px solid #fff;
-	width: 13px;
-	height: 13px;
-	margin-left: 5px;
-	text-indent: -9999px;
-	display: inline-block;
-}
-
-.carousel-indicators .active{
-	background-color: #fff !important;
-	
-}
-
-.slider-content {
-	height: 100%;
-}
-
-#main-carousel .carousel-caption {
-  display: table;
-  height: 100%;
-  width: 100%;
-  min-height: 100%;
-  opacity: 0.8;
-  margin-left: 0px;
-  padding:5px 10px 20px;
-  color: #fff;
-  background: #000000;                 /* Cor da barra flutuante */
-}
-
-#main-carousel .carousel-caption > div{
-    vertical-align: middle;
-    display: table-cell;
-}
-
-#main-carousel .carousel-inner h2 {
-	color: #f6f6f6;
-	display: inline-block;
-	font-family: roboto;
-	font-size: 55px;
-	font-weight: 800;
-	margin-bottom: 40px;
-	text-shadow: none;
-	text-transform: uppercase;
-}
-
-#main-carousel .carousel-inner h2 span{
-  color:#7ab700;
-}
-
-#main-carousel .carousel-inner p {
-	color: #f6f6f6;
-	font-family: roboto;
-	font-size: 24px;
-	font-weight: 300;
-	margin-bottom: 59px;
-	margin-top: 0;
-	text-shadow:none;
-}
-
-#main-carousel .carousel-left{
-	left:-50px;
-}
-
-#main-carousel .carousel-right{
-	right:-50px;
-}
-
-#main-carousel:hover .carousel-left{
-	left:0px;
-	-webkit-transition: 300ms;
-	-moz-transition: 300ms;
-	-o-transition: 300ms;
-	transition: 300ms;
-}
-
-#main-carousel:hover .carousel-right{
-	right:0px;
-	-webkit-transition: 300ms;
-	-moz-transition: 300ms;
-	-o-transition: 300ms;
-	transition: 300ms;
-}
-
-#main-carousel .carousel-left,
-#main-carousel .carousel-right{
-	padding: 15px;
-	z-index: 12;
-	font-size: 60px;
-	color: rgba(255, 255, 255, 0.52);
-	top: 50%;
-	position: absolute;
-	margin-top: -60px;
-	text-align: center;
-	-webkit-transition: 300ms;
-	-moz-transition: 300ms;
-	-o-transition: 300ms;
-	transition: 300ms;
-}
-
-.carousel-right {
-  right:65px
-}
-
-.carousel-left {
-  left:65px
-}
-
-#main-carousel .carousel-left:hover,
-#main-carousel .carousel-right:hover{
-	color: #F6F6F6;
-}
-
-
-
 .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-lead {
   font-weight: 700;
   margin-bottom: 20px;
@@ -1729,39 +1574,30 @@ div.transbox p {
   }
 }
 .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-sub-lead {
-	color: #FFF;
-	font-size: 1.7em;
-	text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
-	-webkit-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
-	-moz-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
-	-o-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
-	text-transform: uppercase;
-	font-weight: 100;
-	margin: 10px 0 5px 0;
+  font-size: 36px;
+  line-height: 30px;
+  line-height: 42px;
+  font-weight: 100;
+  margin-bottom: 30px;
+  color: white;
 }
-
 .carousel-caption {
+  bottom: 14%;
   float: center;
-  left: -290px;
-  top: 480px;
-  opacity: 0.7;
-  padding:50px 40px 20px;
+  left: 0;
+  opacity: 0.8;
+  padding:5px 20px 10px;
   right: inherit;
   color: #fff;
-  text-align: center;
-  background: #000000;                 /* Cor da barra flutuante AQUI*/
-  line-height: 34px;
-	color: white;
-  font-size: 2.0em;
-  font-weight: 100;
-  font-family: "Source Sans Pro", Arial, sans-serif;
-  font-weight: 400;
+  text-align: left;
+  background: #000000;                 /* Cor da barra flutuante */
   
 @media screen and (max-width: 768px) {
   .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-sub-lead {
     font-size: 36px;
     line-height: 34px;
 	color: white;
+  }
 }
 
 .js .to-animate {
@@ -1777,10 +1613,9 @@ div.transbox p {
 }
 .js .to-animate-2,
 .js .single-animate {
-  text-shadow:-1.5px -0.5px 1px #000000;                              /*SOMBRA NAS LETRAS, NO MOMENTO ESTÁ PRETA*/
+  text-shadow:-0.5px -0.5px 1px #000000;                              /*SOMBRA NAS LETRAS, NO MOMENTO ESTÁ PRETA*/
   opacity: 0;
 }
-
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
     float: none;
