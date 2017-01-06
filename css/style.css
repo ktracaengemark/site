@@ -1742,8 +1742,8 @@ div.transbox p {
 
 .carousel-caption {
   float: center;
-  left: -290px;
-  top: 480px;
+  left: -100px;
+  top: 420px;
   opacity: 0.7;
   padding:50px 40px 20px;
   right: inherit;
