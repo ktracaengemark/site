@@ -57,16 +57,6 @@
 
 	};
 
-    //Botão retratil menubar
-	
-	$('.efeito-desliza').click(function () {
-            $('html, body').animate({
-                scrollTop: $($(this).attr('href')).offset().top
-            }, 1000);
-            $('.navbar-toggle').click(); // FAZ UM CLIQUE NO BOTAO QUE CHAMA O MENU PARA OCULTAR O MENU
-            return false;
-         });
-
 	// animate-box
 	var contentWayPoint = function() {
 
