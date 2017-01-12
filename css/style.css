@@ -168,6 +168,24 @@ i.quot {
 .single-member1 h5 {
 	text-align:center
 }
+.single-member2 {
+	height:430px;
+	background-color:#152ff2;
+	border: 1px solid #152ff2;
+	color: #f6f6f6;
+	padding: 25px;
+	text-align:center;
+	overflow:hidden;
+}
+
+.single-member2 img {
+	width:100%
+}
+
+.single-member2 h4, 
+.single-member2 h5 {
+	text-align:center
+}
 
 #our-team {
 	background-color:#f6f6f6;
