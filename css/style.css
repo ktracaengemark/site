@@ -468,6 +468,54 @@ i.quot {
   -o-transition: 0s;
   transition: 0s;
 }
+.section-heading1 {
+  float: left;
+  width: 100%;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  clear: both;
+}
+.section-heading1 h2 {
+  font-size: 35px;
+  font-weight: 300;
+  color: #000000;
+  text-transform: uppercase;
+  position: relative;
+  display: block;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+.section-heading1 h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #6173f4;
+  left: 50%;
+  margin-left: -40px;
+  bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .section-heading1 h2 {
+    font-size: 30px;
+  }
+}
+.section-heading1 h3 {
+  font-weight: 300;
+  line-height: 1.5;
+  color: #000000;
+}
+@media screen and (max-width: 768px) {
+  .section-heading1 h3 {
+    font-size: 24px !important;
+    line-height: 34px;
+  }
+}
+
+
+
+
 
 .section-heading {
   float: left;
