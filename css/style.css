@@ -22,6 +22,30 @@ body {
   height: 100%;
   position: relative;
 }
+mbsocial {
+	background:#f3f3f3;
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	-moz-box-shadow:inset 0 0 3px #333;
+	-webkit-box-shadow:inset 0 0 3px #333;
+	box-shadow:inner 0 0 3px #333;
+	padding:12px 14px 12px 14px;
+	width:400px;
+	position:fixed;
+	bottom:13px;
+	right:2px;
+	display:none;
+	z-index:3;
+	height:200px;} 
+	.getmore a{display: inline-block;
+	font-weight: normal;
+	text-decoration: none;
+	font-size:9px;
+	color:#333!important;
+	float:right;} 
+    .getmore a:visited{ color:#ddd;
+}
 
 a {
   color: #6173f4;
