@@ -22,6 +22,40 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 
+	<style type="text/css">
+	body {background-color: #CCC; font-family: Tahoma,Arial;}
+	#posiciona {
+	position: absolute; /* posição absoluta ao elemento pai, neste caso o BODY */
+	/* Posiciona no meio, tanto em relação a esquerda como ao topo */
+	left: 50%; 
+	top: 7%;
+	width: 500px; /* Largura da DIV */
+	height: 400px; /* Altura da DIV */
+	/* A margem a esquerda deve ser menos a metade da largura */
+	/* A margem ao topo deve ser menos a metade da altura */
+	/* Fazendo isso, centralizará a DIV */
+	margin-left: -250px;
+	margin-top: -200px;
+	background-color: #FFF;
+	color: #FFF;
+	background-color: #000000;
+	text-align: center; /* Centraliza o texto */
+	z-index: 1000; /* Faz com que fique sobre todos os elementos da página */
+	}
+	#fechar { margin: 5px; font-size: 16px; }
+	try-modal-overlay {
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: rgba(#000, .4);
+    z-index: 2;
+    }
+	</style>
+	<script>
+	function fechar() { 
+	document.getElementById("posiciona").style.display = 'none'; 
+	}
+	</script>
+
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
 
@@ -41,7 +75,6 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Slider -->
 	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
-	
 
 	<!--
 	Default Theme Style
@@ -68,6 +101,12 @@
 
 	</head>	
 	<body>
+	<div id="posiciona" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static"> 
+	<div id="fechar" align=right><a href="javascript:fechar();">FECHAR</a></div> 
+	<div class="modal-body">
+						<a href="http://www.ktracaengemark.com.br" target="_blank"><img src="images/popup.jpg" class="img-responsive"</a>
+	</div>
+	</div>
 	<header id="navigation">	
 		<div class="navbar navbar-inverse navbar-fixed-top" role="banner"> 
 			
@@ -77,19 +116,28 @@
 						<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> 
 					</button> 
 					<a class="navbar-brand">
-		            <img class="img-responsive" src="images/logo1.png" alt="logo">
+		            <img class="img-responsive" src="images/logo1.png">
 		            </a> 
 				</div> 
 				
 				<div class="collapse navbar-collapse"> 
 					<ul class="nav navbar-nav navbar-right"> 
 						<li class="scroll"><a href="#navigation">Início</a></li> 
-						<li class="scroll"><a href="#fh5co-about-us">A Ktraca</a></li>	
-                        <li class="scroll"><a href="#fh5co-features">O Que Fazemos</a></li>												
-						<li class="scroll"><a href="#our-team">Nosso Time</a></li> 
-						<!--<li class="scroll"><a href="#portfolio">Imagens</a></li>--> 
-						<li class="scroll"><a href="#our-team1">Clientes</a></li> 
-						<li class="scroll"><a href="#fh5co-testimonials2">Parceiros</a></li>
+						<!--<li class="scroll"><a href="#fh5co-about-us">A Ktraca</a></li>-->
+                        <li class="dropdown">
+							<a class="dropdown-toggle"
+							   data-toggle="dropdown"
+							   href="#"><b>
+								A Ktraca
+								</b><b class="caret"></b>
+							  </a>
+							<ul class="dropdown-menu">
+							    <li class="scroll"><a href="#fh5co-about-us">Quem Somos</a></li>
+							    <li class="scroll"><a href="#our-team">Nosso Time</a></li>	
+                                <li class="scroll"><a href="#our-team1">Nossos Clientes</a></li>	
+                                <li class="scroll"><a href="#fh5co-testimonials2">Nossos Parceiros</a></li>								
+							</ul>						
+                        <li class="scroll"><a href="oquefazemos.html">O Que Fazemos</a></li>												
 						<li class="scroll"><a href="produtos.html">Preços & Planos</a></li>
 						<li class="scroll"><a href="#fh5co-testimonials">Fale Conosco</a></li>
 					</ul>
@@ -103,7 +151,7 @@
     <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
 	<div id="wowslider-container1">
 	<div class="ws_images"><ul>
-		<li><img src="data1/images/1.png" alt="" title="" id="wows1_0"/>Nós somos a <strong>Engrenagem</strong> que faltava
+		<li><img src="data1/images/1.jpg" alt="" title="" id="wows1_0"/>Nós somos a <strong>Engrenagem</strong> que faltava
 na sua <strong>Empresa</strong>.</li>
 		<li><img src="data1/images/2.jpg" alt="wow slider" title="" id="wows1_1"/></a>Nós te ajudamos a cuidar dos seus <strong>Clientes</strong>, 
 antes que a concorrência <strong>Cuide</strong>!</li>
@@ -378,7 +426,7 @@ e melhorar seus <strong>Resultados</strong>.</li>
 						<div class="col-md-8 col-md-offset-2 to-animate">
 							<h3>&#10004 A <b> Ktraca Engenharia e Marketing</b> disponibiliza um serviço de marketing de relacionamento completo, priorizando aumentar a satisfação e a confiança de seus clientes em sua marca. Manter um contato mais próximo com o seu Cliente potencializa a fidelização.</h3>
 						</div>-->
-			<div id="fh5co-features" data-section="sistemas">
+			<!--<div id="fh5co-features" data-section="sistemas">
 	<div class="row">
 				<div class="col-md-12 section-heading text-center to-animate">
 					<h2>O Que Fazemos</h2>
@@ -393,7 +441,7 @@ e melhorar seus <strong>Resultados</strong>.</li>
 								<p>&#10004 Divulgação da sua Empresa e Fidelização dos seus Clientes</p>
 								<p>&#10004 <strong>Clique aqui e saiba mais</strong> </p>
 					           <!--<p><a href="#" class="btn btn-primary">Teste Sis-Odonto</a></p>-->
-							</div>
+							<!--</div>
 						</div>
 						<div class="col-md-4 text-center to-animate">
 							<div class="person">
@@ -403,7 +451,7 @@ e melhorar seus <strong>Resultados</strong>.</li>
 								<p>&#10004 Organização e Controle da sua Empresa</p>
                                 <p>&#10004 <strong>Clique aqui e saiba mais</strong></p>
                                 <!--<p><a href="#" class="btn btn-primary">Teste Sis-Salão</a></p>-->
-							</div>
+							<!--</div>
 						</div>						
 						<div class="col-md-4 text-center to-animate">
 							<div class="person">
@@ -413,7 +461,7 @@ e melhorar seus <strong>Resultados</strong>.</li>
 								<p>&#10004 Atendemos as suas ligações, reduzindo os seus custos</p>
 								<p>&#10004 <strong>Clique aqui e saiba mais</strong></p>
 							<!--<p><a href="#" class="btn btn-primary">Teste Sis-Pet</a></p>-->
-							</div>
+							<!--</div>
 						</div>
 						<!--<div class="col-md-4 text-center to-animate">
 							<div class="person">
@@ -445,9 +493,9 @@ e melhorar seus <strong>Resultados</strong>.</li>
 							<p><a href="#" class="btn btn-primary">Teste Sis-Pet</a></p>
 							</div>
 						</div>-->
-					</div>
+					<!--</div>
 				</div>
-			</div>
+			</div>-->
 			<!--<div class="container">
 			<div class="col-md-8 section-heading1 text-center to-animate">
 					<h2>Marketing</h2>
@@ -598,32 +646,48 @@ e melhorar seus <strong>Resultados</strong>.</li>
 		</div>
 		<div class="carousel-inner team-members">
 		<div class="row item active">
-		<div class="col-sm-6 col-md-3">
+		<div class="col-sm-6 col-md-4">
 								<div class="single-member1">
+								
 									<!--<a href="http://ktracaengemark.com.br/academia/" target="_blank"><img src="images/clientes/log fitness brasil 2.jpg" alt="team member" /></a>-->
 									<a href="http://academiafitnessbrasil.com.br" target="_blank"><img src="images/clientes/log fitness brasil 2.jpg" alt="team member" /></a>
 									<h4><p class="ceo"><strong>Júlio Freitas, <span class="ceo1">Dono da Academia Fitness Brasil</span></p></h4>
 									<h4 class="to-animate">"A Ktraca deu uma direção pro meu negócio e me mostrou falhas que eu nunca encontraria sozinho."</h4>
 						        </div>
 		</div>
-		<div class="col-sm-6 col-md-3">
+		<div class="col-sm-6 col-md-4">
 								<div class="single-member2">
+								<br>
+								<br>
 									<a href="http://ktracaengemark.com.br/agevet/" target="_blank"><img src="images/clientes/logoage.png" alt="team member" /></a>
 									<h4><p class="ceo">Veterinária<strong><span class="ceo1"></span></p></h4>
 									<h4 class="to-animate"></h4>
 						        </div>
 		</div>
-		<div class="col-sm-6 col-md-3">
+		<div class="col-sm-6 col-md-4">
 								<div class="single-member1">
+								<br>
+								<br>
 									<a href="http://ktracaengemark.com.br/elefantax/" target="_blank"><img src="images/clientes/elefantax.png" alt="team member" /></a>
 									<h4><p class="ceo"><strong>40 anos de experiência <span class="ceo1"></span></p></h4>
 									<h4 class="to-animate"></h4>
 						        </div>
 		</div>
-		<div class="col-sm-6 col-md-3">
+		<div class="col-sm-6 col-md-4">
 								<div class="single-member2">
+								<br>
 									<a href="http://ktracaengemark.com.br/novohorizonte/" target="_blank"><img src="images/clientes/mercado.png" alt="team member" /></a>
 									<h4><p class="ceo"><strong><span class="ceo1">Novo Horizonte Supermercados</span></p></h4>
+									<h4 class="to-animate"></h4>
+						        </div>
+		</div>
+		<div class="col-sm-6 col-md-4">
+								<div class="single-member1">
+								<br>
+								<br>
+								<br>
+									<a href="http://ktracaengemark.com.br/cantinho/" target="_blank"><img src="images/clientes/cantinho.png" alt="team member" /></a>
+									<h4><p class="ceo"><strong><span class="ceo1">Cantinho Da Roça</span></p></h4>
 									<h4 class="to-animate"></h4>
 						        </div>
 		</div>
@@ -688,7 +752,7 @@ e melhorar seus <strong>Resultados</strong>.</li>
 							<address>
 								 "Agende uma visita,<br>
 								ou escreva pra gente,<br>
-								nós quermos conhecer<br>
+								nós queremos conhecer<br>
 								a sua Empresa"<br>								
 							</address>
 						</div>
