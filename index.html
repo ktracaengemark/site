@@ -22,40 +22,6 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 
-	<style type="text/css">
-	body {background-color: #CCC; font-family: Tahoma,Arial;}
-	#posiciona {
-	position: absolute; /* posição absoluta ao elemento pai, neste caso o BODY */
-	/* Posiciona no meio, tanto em relação a esquerda como ao topo */
-	left: 50%; 
-	top: 7%;
-	width: 500px; /* Largura da DIV */
-	height: 400px; /* Altura da DIV */
-	/* A margem a esquerda deve ser menos a metade da largura */
-	/* A margem ao topo deve ser menos a metade da altura */
-	/* Fazendo isso, centralizará a DIV */
-	margin-left: -250px;
-	margin-top: -200px;
-	background-color: #FFF;
-	color: #FFF;
-	background-color: #000000;
-	text-align: center; /* Centraliza o texto */
-	z-index: 1000; /* Faz com que fique sobre todos os elementos da página */
-	}
-	#fechar { margin: 5px; font-size: 16px; }
-	try-modal-overlay {
-    position: fixed;
-    top: 0; right: 0; bottom: 0; left: 0;
-    background: rgba(#000, .4);
-    z-index: 2;
-    }
-	</style>
-	<script>
-	function fechar() { 
-	document.getElementById("posiciona").style.display = 'none'; 
-	}
-	</script>
-
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
 
@@ -101,12 +67,6 @@
 
 	</head>	
 	<body>
-	<div id="posiciona" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static"> 
-	<div id="fechar" align=right><a href="javascript:fechar();">FECHAR</a></div> 
-	<div class="modal-body">
-						<a href="http://www.ktracaengemark.com.br" target="_blank"><img src="images/popup.jpg" class="img-responsive"</a>
-	</div>
-	</div>
 	<header id="navigation">	
 		<div class="navbar navbar-inverse navbar-fixed-top" role="banner"> 
 			
